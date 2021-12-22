@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Disney Characters</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">	
+</head>
+	<body>
+		<section class="princess">
+			<nav>
+				<a href="index.html"><img src="./images/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">На главную</a></li>
+						<li><a href="princesses.html">Принцессы</a></li>
+						<li><a href="evil.html">Злодеи</a></li>
+						<li><a href="gallery.html">Галерея</a></li>
+						<li><a href="test.html">Тест</a></li>
+						<li><a href="contact.html">Связь</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+
+            <div >
+                <h1>Злодеи</h1>
+                <p>Герои Disney известны почти всем, но помимо героев популярность также получили и антагонисты. </p>
+            </div>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="./images/ursula.jpg">
+					<div class="layer">
+						<h3>Урсула</h3>
+						<h4 class="evil">Антагонистка мультфильма "Русалочка". Урсула — мрачная, зловещая морская ведьма.
+                             Она прекрасный оратор. Также тщеславна, коварна и властолюбива. Урсула прекрасный злодей.</h4>
+					</div>
+				</div>
+				<div class="campus-col">
+                    <img src="./images/captain.jpg">
+					<div class="layer">
+						<h3>Капитан Крюк</h3>
+						<h4 class="evil">Является главным злодеем в мультфильме "Питер Пэн".
+                             Вспыльчивый, жестокий, грозный и хитрый предводитель пиратов.
+                             Крюк хороший манипулятор. Кровожадный и умный, он умудряется заинтересовать зрителей.
+						</h4>
+					</div>
+				</div>
+				<div class="campus-col">
+                    <img src="./images/queen.png">
+					<div class="layer">
+						<h3>Злая Королева</h3>
+						<h4 class="evil">Первая каноничная злодейка в истории полнометражек диснея.
+                             Королева тщеславная, завистливая, а еще она приходиться злой мачехой Белоснежке.
+                              Злая, садистская, самовлюблённая, ворчливая, практичная,
+                             манипулятивная, жестокая эти и многие другие негативные черты характера 
+                             делают ее хорошим образцом злодея.</h4>
+					</div>
+				</div>
+            </div>
+
+			<div class="row">
+                <div class="campus-col">
+                    <img src="./images/malifecent.jpg">
+					<div class="layer">
+						<h3>Малефисента</h3>
+						<h4 class="evil">
+							Антагонистка мультика "Спящая красавица". Всемогущая темная фея, 
+                            повергающая в ужас все королевство. Она есть воплощение абсолютного и истинного зла. 
+                            Ее цель - сеять хаос и разрушение. Является одним из лучших злодеев, когда-либо показанных на экране.
+						</h4>
+					</div>
+				</div>
+				<div class="campus-col">
+                    <img src="./images/jafar.jpg">
+					<div class="layer">
+						<h3>Джафар</h3>
+						<h4 class="evil">Главный злодей в мультипликационном фильме "Аладдин". 
+                            Аморальный психопат, идущий по головам к своей цели. Он умен и хитроумен,
+                             но при этом он очень вспыльчив, обладает садистскими наклонностями.
+                              Его цель захват мира. Он крайне харизматичный персонаж.</h4>
+					</div>
+				</div>
+				<div class="campus-col">
+                    <img src="./images/aid.jpg">
+					<div class="layer">
+						<h3>Аид</h3>
+						<h4 class="evil">
+							Злодей в мультфильме "Геркулес". Он коварный злой гений.
+                             Идет на все ради своей цели. Он легко приходит в ярость, пытается шутить. 
+                            Считает себя добрым парнем, который просто ненавидит Геркулеса. 
+                            Его нельзя с уверенностью назвать истинным злом.</h4>
+					</div>
+				</div>
+            </div>
+		</section>
+	</body>
+	<script src="https://kit.fontawesome.com/4d33cd4974.js" crossorigin="anonymous"></script>
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0px";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-120px";
+		}
+
+	</script>
+	
+</html>
